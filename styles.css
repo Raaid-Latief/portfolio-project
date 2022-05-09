@@ -1,0 +1,58 @@
+
+
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#logo{
+    font-family: 'Great Vibes', cursive;
+ 
+    transform: rotate(354deg);
+
+}
+
+#home{
+    background-color: aqua;
+    padding: 15%;
+    background-image: url(./swan-1868697_1920.jpg);
+}
+
+
+#title-name{
+    font-family: 'Great Vibes', cursive;
+ 
+    transform: rotate(354deg);
+
+}
+
+.p5{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#about{
+    background-color: #fff;
+}
+
+
+.progress{
+    width: 100%;
+    margin: 30px;
+    
+}
+
+
+
+.carousel-inner{
+}
+
+.testinominees{
+    font-family: 'Great Vibes', cursive;
+ 
+    transform: rotate(354deg);
+
+}
