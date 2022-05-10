@@ -8,7 +8,18 @@
     scroll-behavior: smooth;
 }
 
-#logo{
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    color: red; 
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#logo,.logo{
     font-family: 'Great Vibes', cursive;
  
     transform: rotate(354deg);
@@ -36,7 +47,11 @@
 
 
 #about{
-    background-color: #fff;
+    background-color: black;
+    padding: 25px;
+}
+.container{
+    color: grey;
 }
 
 
@@ -46,7 +61,16 @@
     
 }
 
+#resume{
+    background-color: black;
+    padding: 25px;
+}
 
+
+
+#testimonials{
+    background-color: black;
+}
 
 .carousel-inner{
 }
@@ -56,4 +80,14 @@
  
     transform: rotate(354deg);
 
+}
+
+#projects{
+    padding: 25px;
+
+}
+
+#skills{
+    background-color: black;
+    padding: 25px;
 }
