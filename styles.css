@@ -29,7 +29,7 @@ p{
 #home{
     background-color: aqua;
     padding: 15%;
-    background-image: url(./swan-1868697_1920.jpg);
+ background-image: url(./swan-1868697_1920.jpg);
 }
 
 
@@ -61,6 +61,11 @@ p{
     
 }
 
+#creative{
+    background-color: black;
+    padding: 25px;
+}
+
 #resume{
     background-color: black;
     padding: 25px;
@@ -83,11 +88,71 @@ p{
 }
 
 #projects{
+    background-color: black;
     padding: 25px;
 
 }
 
+
+.staff {
+    position: relative;
+  }
+  
+  .project-links {
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    opacity: 0;
+    transition: all 0.3s linear;
+  }
+  
+  .staff:hover .project-links{
+    opacity: 1;
+  }
+
 #skills{
     background-color: black;
     padding: 25px;
+}
+
+
+
+
+
+
+
+
+#contact{
+    background-color: black; 
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+#footer{
+    background-color: beige;
+    padding: 5px;
+}
+
+
+.up-arrow{color: white  ;
+    position: sticky;
+
 }
