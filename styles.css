@@ -19,7 +19,7 @@ p{
 }
 
 
-#logo,.logo{
+#logo,.logo,.signutare{
     font-family: 'Great Vibes', cursive;
  
     transform: rotate(354deg);
