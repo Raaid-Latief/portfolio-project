@@ -11,20 +11,40 @@
 
 h1{
     font-family: 'Great Vibes', cursive;
-    color: red; 
+  
+    transform: rotate(354deg)
+
 }
 
 p{
     font-family: 'Roboto', sans-serif;
+    color: #00fbff;
+
 }
 
 
-#logo,.logo,.signutare{
+
+/* HEADINGS STYLES */
+
+.about-head,.passions-head,{
+    color: #00fbff;
+}
+
+h2,h4,h5{
+    color: #00fbff;
+
+}
+#logo,.logo{
     font-family: 'Great Vibes', cursive;
  
     transform: rotate(354deg);
 
 }
+
+.nav-link{
+    color: #00fbff;
+}
+
 
 #home{
     background-color: aqua;
@@ -71,6 +91,9 @@ p{
     padding: 25px;
 }
 
+.lists{color: #00fbff;
+}
+
 
 
 #testimonials{
@@ -78,6 +101,14 @@ p{
 }
 
 .carousel-inner{
+}
+
+
+
+
+.carousel-item{
+    width: 50%;
+    height: 50%;
 }
 
 .testinominees{
@@ -91,6 +122,12 @@ p{
     background-color: black;
     padding: 25px;
 
+}
+
+
+.img-fluid{
+    width: ;
+    height: ;
 }
 
 
@@ -141,13 +178,18 @@ p{
 
 
 
+.send-btn{
+    background-color: black;
+}
+
+
 
 
 
 
 
 #footer{
-    background-color: beige;
+    background-color: #2D0800;
     padding: 5px;
 }
 
@@ -156,3 +198,45 @@ p{
     position: sticky;
 
 }
+
+
+.fa-brands{
+    color: #dc3545;
+}
+
+
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.1rem 0 0;
+}
+
+.socials li{
+    margin: 0 17px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
+.socials a i{
+    font-size: 3.7rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover{
+    color: #00fbff;
+}
+
+
+
+/* USE FOR FOOTER CONTENT
+
+FOOTER{COLOR #00262D}
+
+
+*/
