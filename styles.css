@@ -8,7 +8,9 @@
     scroll-behavior: smooth;
 }
 
-
+body{
+    overflow-x: hidden;
+}
 h1{
     font-family: 'Great Vibes', cursive;
   
@@ -26,7 +28,7 @@ p{
 
 /* HEADINGS STYLES */
 
-.about-head,.passions-head,{
+.about-head,.passions-head{
     color: #00fbff;
 }
 
@@ -70,6 +72,8 @@ h2,h4,h5{
     background-color: black;
     padding: 25px;
 }
+
+
 .container{
     color: grey;
 }
@@ -77,9 +81,12 @@ h2,h4,h5{
 
 .progress{
     width: 100%;
-    margin: 30px;
+    color: #dc3545;
+  
     
 }
+
+
 
 #creative{
     background-color: black;
@@ -107,9 +114,21 @@ h2,h4,h5{
 
 
 .carousel-item{
-    width: 50%;
-    height: 50%;
+
+
+    
+padding-left: 30%;
+
+   
 }
+
+
+
+.navbar i{
+    font-size: 30px;
+    color: #dc3545;
+}
+
 
 .testinominees{
     font-family: 'Great Vibes', cursive;
@@ -138,7 +157,7 @@ h2,h4,h5{
   .project-links {
     background: linear-gradient(
       to top,
-      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.2) 0%,
       rgba(0, 0, 0, 0) 100%
     );
     color: white;
@@ -240,3 +259,82 @@ FOOTER{COLOR #00262D}
 
 
 */
+
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    background:#d2eaf1;
+  
+  }
+  
+  .circle-wrap {
+    margin: 150px auto;
+    width: 150px;
+    height: 150px;
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+  }
+  
+  .circle-wrap .circle .mask,
+  .circle-wrap .circle .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+  }
+  
+  .circle-wrap .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #d2eaf1;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #dc3545;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+  }
+  
+  /* color animation */
+  
+  /* 3rd progress bar */
+  .mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #dc3545;
+  }
+  
+  .mask.full,
+  .circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(135deg);
+  }
+  
+  @keyframes fill{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(135deg);
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
