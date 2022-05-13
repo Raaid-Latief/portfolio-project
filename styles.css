@@ -44,16 +44,25 @@ h2,h4,h5{
 
 }
 
+/*End of Heading Styles */
+
 .nav-link{
     color: #00fbff;
 }
 
+
+.navbar i{
+    font-size: 30px;
+    color: #dc3545;
+}
 
 #home{
     background-color: aqua;
     padding: 15%;
  background-image: url(./images/swan-1868697_1920.jpg);
     background-attachment: fixed;
+    display: flex;
+    flex: wrap;
 }
 
 
@@ -109,8 +118,6 @@ h2,h4,h5{
     background-color: black;
 }
 
-.carousel-inner{
-}
 
 
 
@@ -119,10 +126,6 @@ h2,h4,h5{
 
 
 
-.navbar i{
-    font-size: 30px;
-    color: #dc3545;
-}
 
 
 .testinominees{
@@ -138,11 +141,6 @@ h2,h4,h5{
 
 }
 
-
-.img-fluid{
-    width: ;
-    height: ;
-}
 
 
 .staff {
@@ -248,15 +246,12 @@ h2,h4,h5{
 
 
 
-/* USE FOR FOOTER CONTENT
-FOOTER{COLOR #00262D}
-*/
 
 
 
 .progress-bar{
     position: relative;
-    font-family:  font-family: 'Roboto', sans-serif;;
+    font-family:  font-family: 'Roboto', sans-serif;
     color: #00fbff;
     font-weight: 600;
 }
