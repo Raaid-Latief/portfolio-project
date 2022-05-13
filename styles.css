@@ -236,8 +236,9 @@ h2,h4,h5{
 }
 
 .socials a i{
-    font-size: 3.7rem;
+    font-size: 6rem;
     transition: color .4s ease;
+    border: black;
 }
 
 .socials a:hover{
