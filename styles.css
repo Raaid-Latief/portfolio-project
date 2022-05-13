@@ -52,7 +52,8 @@ h2,h4,h5{
 #home{
     background-color: aqua;
     padding: 15%;
- background-image: url(./swan-1868697_1920.jpg);
+ background-image: url(./images/swan-1868697_1920.jpg);
+    background-attachment: fixed;
 }
 
 
@@ -301,7 +302,9 @@ FOOTER{COLOR #00262D}
  }
 
 
-
+.fa-heart{
+    color: red;
+}
 
 
 
