@@ -56,3 +56,14 @@ const testimonials = [
     
 },
 ];
+
+
+
+
+for (let i=0; i<projects.length; i++)
+{
+ document.querySelector("#projects").innerHTML+=`
+ <img src=${projects[i].imgURL}>
+ `;  
+}
+
